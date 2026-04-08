@@ -1,0 +1,15 @@
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\bin\Debug\net10.0\Task_02.exe
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\bin\Debug\net10.0\Task_02.deps.json
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\bin\Debug\net10.0\Task_02.runtimeconfig.json
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\bin\Debug\net10.0\Task_02.dll
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\bin\Debug\net10.0\Task_02.pdb
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.AssemblyInfoInputs.cache
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.AssemblyInfo.cs
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.csproj.CoreCompileInputs.cache
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.sourcelink.json
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.dll
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\refint\Task_02.dll
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.pdb
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\Task_02.genruntimeconfig.cache
+C:\Users\llitv\source\repos\HomeWorks\HomeWork_01\Task_02\obj\Debug\net10.0\ref\Task_02.dll
