@@ -1,4 +1,11 @@
 <Solution>
   <Project Path="HomeWork_01/Task_01/Task_01.csproj" />
   <Project Path="HomeWork_01/Task_02/Task_02.csproj" />
+  <Project Path="HomeWork_02/HW2_Task_01/HW_02_Task_01.csproj" Id="99d5c4d8-ce91-4daf-8657-2f2325903d95" />
+  <Project Path="HomeWork_02/HW2_Task_02/HW_02_Task_02.csproj" Id="7132f51f-e7cc-40f0-95a5-d6181a05577b" />
+  <Project Path="HomeWork_02/HW_02_Task_03/HW_02_Task_03.csproj" Id="f1d90eea-5ff1-4338-a01f-8cfdb71d691f" />
+  <Project Path="HomeWork_02/HW_02_Task_04/HW_02_Task_04.csproj" Id="d705d14c-d183-4daf-b3b3-0c0bd6d90104" />
+  <Project Path="HomeWork_02/HW_02_Task_05/HW_02_Task_05.csproj" Id="943f504f-d7d0-4fc8-b2c5-ad271116a0ff" />
+  <Project Path="HomeWork_02/HW_02_Task_06/HW_02_Task_06.csproj" Id="d3b932fb-9c9e-40f4-9a8c-0acd315fa61c" />
+  <Project Path="HomeWork_02/HW_02_Task_07/HW_02_Task_07.csproj" Id="7672c689-032a-48d7-bdc8-bf9013b267d7" />
 </Solution>
