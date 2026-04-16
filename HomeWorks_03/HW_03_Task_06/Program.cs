@@ -8,14 +8,15 @@ namespace HW_03_Task_06
             Console.Write("Enter number: ");
             double number = Convert.ToDouble(Console.ReadLine());
 
-            if (number % 2 == 0)
-            {
-                Console.WriteLine("Yes");
-            }
-            else
-            {
-                Console.WriteLine("No");
-            }
+            //if (number % 2 == 0)
+            //{
+            //    Console.WriteLine("Yes");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No");
+            //}
+            Console.WriteLine(number % 2 == 0? "Yes": "No");
         }
     }
 }
