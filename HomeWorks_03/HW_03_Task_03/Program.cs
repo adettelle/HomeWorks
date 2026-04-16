@@ -1,6 +1,4 @@
 ﻿// Вводятся четыре числа. Вывести большее из них.
-using System.ComponentModel.DataAnnotations;
-
 namespace HW_03_Task_03
 {
     internal class Program
@@ -18,14 +16,8 @@ namespace HW_03_Task_03
 
             double max = firstNumber > secondNumber ? firstNumber : secondNumber;
 
-            if (thirdNumber > max)
-            {
-                max = thirdNumber;
-            }
-            if (fourthNumber > max)
-            {
-                max = fourthNumber;
-            }
+            if (thirdNumber > max) max = thirdNumber;
+            if (fourthNumber > max) max = fourthNumber;
             Console.WriteLine($"max is {max}");
         }
     }

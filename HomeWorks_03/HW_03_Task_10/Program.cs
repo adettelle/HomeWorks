@@ -11,29 +11,31 @@ namespace HW_03_Task_010
             int number = Convert.ToInt32(Console.ReadLine());
 
             string end = "";
-            switch (number % 10)
+            int teens = number % 100;
+
+            if (teens >= 11 && teens <= 19)
             {
-                case 1:
-                    end = "";
-                    break;
-                case 2:
-                case 3:
-                case 4:
-                    end = "а";
-                    break;
-                case 5:
-                case 6:
-                case 7:
-                case 8:
-                case 9:
-                case 0:
-                    end = "ов";
-                    break;
-                default:
-                    end = "";
-                    break;
+                end = "ов";
             }
-            Console.WriteLine($"Мы построили {number} дом{end}"); 
+            else
+            {
+                switch (number % 10)
+                {
+                    case 1:
+                        end = "";
+                        break;
+                    case 2:
+                    case 3:
+                    case 4:
+                        end = "а";
+                        break;
+                    default:
+                        end = "ов";
+                        break;
+                }
+            }
+
+            Console.WriteLine($"Мы построили {number} дом{end}");
 
         }
     }

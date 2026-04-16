@@ -17,6 +17,7 @@ namespace HW_03_Task_04
             double thirdNumber = Convert.ToDouble(Console.ReadLine());
 
             // double min = (firstNumber <  secondNumber) ? firstNumber : secondNumber; 
+            /*
             double change;
             if (firstNumber > secondNumber)
             {
@@ -36,9 +37,14 @@ namespace HW_03_Task_04
                 firstNumber = secondNumber;
                 secondNumber = change;
             }
-
+            */
+            double median =
+                firstNumber + secondNumber + thirdNumber
+                - Math.Max(firstNumber, Math.Max(secondNumber, thirdNumber)) 
+                - Math.Min(firstNumber, Math.Min(secondNumber, thirdNumber));
             Console.WriteLine($"Median number is {secondNumber}");
         }
     }
 }
+
 

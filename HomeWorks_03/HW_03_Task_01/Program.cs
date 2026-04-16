@@ -9,18 +9,9 @@ namespace HW_03_Task_01
             double firstNumber = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter second number: ");
             double secondNumber = Convert.ToDouble(Console.ReadLine());
-            if (firstNumber > secondNumber)
-            {
-                Console.WriteLine($"{firstNumber} > {secondNumber}");
-            }
-            else if (firstNumber < secondNumber)
-            {
-                Console.WriteLine($"{firstNumber} < {secondNumber}");
-            }
-            else
-            {
-                Console.WriteLine($"{firstNumber} = {secondNumber}");
-            }
+            if (firstNumber > secondNumber) Console.WriteLine($"{firstNumber} > {secondNumber}");
+            else if (firstNumber < secondNumber) Console.WriteLine($"{firstNumber} < {secondNumber}");
+            else Console.WriteLine($"{firstNumber} = {secondNumber}");
         }
     }
 }
