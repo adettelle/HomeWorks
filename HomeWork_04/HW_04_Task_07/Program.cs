@@ -9,14 +9,14 @@ namespace HW_04_Task_07
             int num = Convert.ToInt32(Console.ReadLine());
 
             int count = 0;
-            int temp = num;
+            int temp = Math.Abs(num);
 
-            while (temp > 10)
+            while (temp > 0)
             {
+                temp /= 10;
                 count++;
-                temp = temp / 10;
             }
-            count++;
+
             if (count == 1)
             {
                 Console.WriteLine($"number of digits in the number is {count}");

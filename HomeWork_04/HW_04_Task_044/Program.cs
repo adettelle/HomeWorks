@@ -7,18 +7,18 @@ namespace HW_04_Task_04
         static void Main(string[] args)
         {
             int a;
-            Console.Write("enter a positive number: ");
+            Console.Write("enter base (a positive number): ");
             do a = Convert.ToInt32(Console.ReadLine());
             while (a <= 0);
 
             int b;
-            Console.Write("enter a negative number: ");
+            Console.Write("enter power (a negative number): ");
             do b = Convert.ToInt32(Console.ReadLine());
             while (b >= 0);
 
             double res = 1;
 
-            for (int i = 0; i < -b; i++) 
+            for (int i = 0; i > b; i--) 
             {
                 res *= a;
             }

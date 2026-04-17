@@ -6,12 +6,12 @@ namespace HW_04_Task_03
         static void Main(string[] args)
         {
             int a;
-            Console.Write("Enter a positive number: ");
+            Console.Write("Enter base (a positive number): ");
             do a = Convert.ToInt32(Console.ReadLine());
             while (a <= 0);
 
             int b;
-            Console.Write("Enter a positive power: ");
+            Console.Write("Enter power (a positive number): ");
             do b = Convert.ToInt32(Console.ReadLine());
             while (b <= 0);
             
