@@ -11,12 +11,12 @@ namespace HW_05_Task_02
             Random rnd = new Random();
             int countPositive = 0;
             int countNegative = 0;
-            int countNull = 0;
+            int countZero = 0;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 array[i] = rnd.Next(-20, 21);
-                if (array[i] == 0) countNull++;
+                if (array[i] == 0) countZero++;
                 else if (array[i] < 0) countNegative++;
                 else countPositive++;
             }
@@ -24,7 +24,7 @@ namespace HW_05_Task_02
 
             Console.WriteLine($"number of positive numbers is {countPositive}");
             Console.WriteLine($"number of negative numbers is {countNegative}");
-            Console.WriteLine($"number of null numbers is {countNull}");
+            Console.WriteLine($"number of zero numbers is {countZero}");
 
         }
     }

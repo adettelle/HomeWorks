@@ -16,7 +16,7 @@ namespace HW_05_Task_04
                 array[i] = rnd.Next(0, 11);
                 arrayReversed[n - 1 - i] = array[i];
             }
-
+            // Array.Reverse(array);
             Console.WriteLine($"initial  array is: {string.Join(", ", array)}");
             Console.WriteLine($"reversed array is: {string.Join(", ", arrayReversed)}");
         }

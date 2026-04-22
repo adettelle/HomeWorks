@@ -7,15 +7,15 @@ namespace HW_05_Task_07
     {
         static void Main(string[] args)
         {
-            const int n = 5;
+            const int cols = 5;
             const int rows = 10;
             Random rnd = new Random();
-            int[] array = new int[n];
+            int[] array = new int[cols];
 
             for (int j = 0; j < rows; j++)
             {
                 int max = 0;
-                for (int i = 0; i < n; i++)
+                for (int i = 0; i < cols; i++)
                 {
 
                     array[i] = rnd.Next(0, 11);

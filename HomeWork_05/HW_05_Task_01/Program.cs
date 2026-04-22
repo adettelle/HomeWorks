@@ -9,21 +9,15 @@ namespace HW_05_Task_01
             const int n = 100;
             int[] array = new int[n];
             Random rnd = new Random();
-            int countEvent = 0;// чётные
-            int countOdd = 0;  // нечётные
+            int countEven = 0;// чётные
 
             for (int i = 0; i < n; i++)
             {
                 array[i] = rnd.Next(0, 101);
-                if (array[i] % 2 == 0)
-                {
-                    countEvent++;
-                } else
-                {
-                    countOdd++;
-                }
+                if (array[i] % 2 == 0) countEven++;
             }
-            Console.WriteLine($"number of even numbers is {countEvent}; number of odd numbers is {countOdd}");
+            Console.WriteLine(countEven > n-countEven? "There are more even numbers than odd numbers" :
+                countEven < n-countEven ? "There are more odd numbers than even numbers" : "The number of even and odd numbers is equal");
         }
     }
 }

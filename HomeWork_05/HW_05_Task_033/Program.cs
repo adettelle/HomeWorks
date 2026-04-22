@@ -10,14 +10,12 @@ namespace HW_05_Task_03
             int[] array = new int[n];
             Random rnd = new Random();
 
-
-            array[0] = rnd.Next(0, 51);
-            int maxNum = array[0];
+            int maxNum = int.MinValue; ;
             int maxIndex = 0;
-            int minNum = array[0];
+            int minNum = int.MaxValue;
             int minIndex = 0;
 
-            for (int i = 1; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 array[i] = rnd.Next(0, 51);
                 if (array[i] > maxNum)

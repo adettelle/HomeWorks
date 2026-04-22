@@ -43,6 +43,11 @@ namespace HW_05_Task_05
                 }
             }
 
+            // Второй вариант - использование методов Sort и Reverse
+            // Array.Sort(array, 0, 5); // Сортировка первых 5 по возрастанию
+            // Array.Sort(array, 5, 5); // Сортировка вторых 5
+            // Array.Reverse(array, 5, 5); // Разворот вторых 5 для убывания
+
             Console.WriteLine($"array after sort is: {string.Join(", ", array)}");
             //Console.WriteLine($"reversed array is: {string.Join(", ", arrayReversed)}");
         }
