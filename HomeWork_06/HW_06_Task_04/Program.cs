@@ -12,7 +12,7 @@ namespace HW_06_Task_04
         static void Main(string[] args)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Name: ");
+            // sb.Append("Name: ");
 
             Console.Write("Enter your name: ");
             string? name = Console.ReadLine();
@@ -21,8 +21,8 @@ namespace HW_06_Task_04
                 Console.Write("Empty input. Try again: ");
                 name = Console.ReadLine();
             }
-            sb.Append(name);
-            sb.Append(", Age: ");
+            //sb.Append(name);
+            //sb.Append(", Age: ");
 
             Console.Write("Enter your age: ");
             string? age = Console.ReadLine();
@@ -31,8 +31,8 @@ namespace HW_06_Task_04
                 Console.Write("Empty input. Try again: ");
                 age = Console.ReadLine();
             }
-            sb.Append(age);
-            sb.Append(", City: ");
+            //sb.Append(age);
+            //sb.Append(", City: ");
 
             Console.Write("Enter your city: ");
             string? city = Console.ReadLine();
@@ -41,8 +41,13 @@ namespace HW_06_Task_04
                 Console.Write("Empty input. Try again: ");
                 city = Console.ReadLine();
             }
-            sb.Append(city);
-            Console.WriteLine(sb);
+            //sb.Append(city);
+
+            sb.Append("Name: ").Append(name)
+                .Append(", Age: ").Append(age)
+                .Append(", City: ").Append(city);
+
+            Console.WriteLine(sb.ToString());
 
         }
     }

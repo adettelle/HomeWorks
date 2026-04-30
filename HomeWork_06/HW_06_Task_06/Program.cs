@@ -14,7 +14,7 @@ namespace HW_06_Task_06
             Console.Write("Enter a password: ");
             string? pwd = Console.ReadLine();
 
-            Regex rgx = new Regex(@"^(?=.*\d)(?=.*[A-Z])(?=.*[!#;%:?*.]).{14,}$");
+            Regex rgx = new Regex(@"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!#;%:?*.]).{14,}$");
 
             while (string.IsNullOrWhiteSpace(pwd) && !rgx.IsMatch(pwd))
             {

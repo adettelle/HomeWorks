@@ -34,7 +34,7 @@ namespace HW_06_Task_03
         static void Main(string[] args)
         {
             Console.Write("Enter a month: ");
-            string? month = Console.ReadLine(); // check str
+            string? month = Console.ReadLine(); 
             while (string.IsNullOrWhiteSpace(month))
             {
                 Console.Write("Empty input. Enter a month: ");
@@ -65,15 +65,17 @@ namespace HW_06_Task_03
             {
                 Console.Write("Invalid quantuty. Try again: ");
             }
-
-            Console.WriteLine("--------------------------------");
+            double avgCost = sales / number;
+            string separator = new string('-', 40);
+            Console.WriteLine(separator);
             Console.WriteLine($"Sales report for {monthCapitalized} {year}");
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine(separator);
 
-            Console.WriteLine($"    Total sales: {String.Format("{0:N2}", sales)} $");
-            Console.WriteLine($"    Number of items sold: {number} pieces");
-            Console.WriteLine($"    Average cost of goods: {String.Format("{0:N2}", sales / number)} $");
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine($"Total sales: {sales:N2} $");
+            Console.WriteLine($"Number of items sold: {number} pieces");
+            // Console.WriteLine($"Average cost of goods: {String.Format("{0:N2}", sales / number)} $");
+            Console.WriteLine($"Average cost of goods: {avgCost:N2} $");
+            Console.WriteLine(separator);
 
         }
     }
