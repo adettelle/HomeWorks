@@ -13,20 +13,20 @@ namespace HW_07_Task_02
         static void Main(string[] args)
         {
             Console.Write("Enter a lenght of a cube: ");
-            int edge = Convert.ToInt32(Console.ReadLine());
+            double edge = Convert.ToDouble(Console.ReadLine());
 
-            int area;
-            int volume;
+            double area;
+            double volume;
 
             CalcCube(edge, out area, out volume);
-            Console.WriteLine($"Объем куба: {volume}"); // Объем куба: 125
-            Console.WriteLine($"Площадь поверхности куба: {area}"); // Площадь поверхности куба: 150
+            Console.WriteLine($"Объем куба: {volume:F2}"); // Объем куба: 125
+            Console.WriteLine($"Площадь поверхности куба: {area:F2}"); // Площадь поверхности куба: 150
         }
 
-        static void CalcCube(int edge, out int area, out int volume)
+        static void CalcCube(double edge, out double area, out double volume)
         {
-            area = edge * edge * 3;
-            volume = edge * edge * edge;
+            area = Math.Pow(edge, 3);
+            volume = 6 * Math.Pow(edge, 2);
 
         }
     }
