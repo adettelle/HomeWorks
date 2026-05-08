@@ -85,20 +85,22 @@ namespace HW_08_Task_01
 
         static int Calc(int a, int b, int code)
         {
+            /*
+            int res = code switch
+            {
+                1 => a + b,
+                2 => a - b,
+                3 => a * b,
+                4 => b != 0 ? a / b : throw new DivideByZeroException("Divizion by zero"),
+                _ => throw new ArgumentException("Invalid operation code")
+            };
+            return res;
+            */
             switch (code)
             {
-                case 1:
-                    {
-                        return a + b;
-                    }
-                case 2:
-                    {
-                        return a - b;
-                    }
-                case 3:
-                    {
-                        return a * b;
-                    }
+                case 1: return a + b;
+                case 2: return a - b;
+                case 3: return a * b;
                 case 4:
                     {
                         if (b == 0)
@@ -107,8 +109,7 @@ namespace HW_08_Task_01
                         }
                         return a / b;
                     }
-                default:
-                    throw new Exception("Invalid operation code");
+                default: throw new Exception("Invalid operation code");
             }
         }
     }

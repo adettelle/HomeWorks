@@ -28,13 +28,9 @@ namespace HW_08_Task_02
                 {
                     Console.WriteLine($"Not a number {ex.Message}");
                 }
-                catch (ArgumentOutOfRangeException ex)
+                catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
-                }
-                catch (ArgumentException ex)
-                {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine($"Error: {ex.Message}");
                 }
             }
         }
