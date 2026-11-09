@@ -8,11 +8,12 @@ namespace HW_08_Task_02
         static void Main(string[] args)
         {
             int age;
+
             while (true)
             {
                 Console.Write("Enter your age: ");
                 string? input = Console.ReadLine();
-                if (input == null)
+                if (string.IsNullOrWhiteSpace(input))
                 {
                     Console.WriteLine("Input is empty.");
                     continue;
@@ -26,8 +27,16 @@ namespace HW_08_Task_02
                 }
                 catch (FormatException ex)
                 {
-                    Console.WriteLine($"Not a number {ex.Message}");
+                    Console.WriteLine($"Not a number: {ex.Message}");
                 }
+                //catch (OverflowException ex)
+                //{
+                //    Console.WriteLine($"Number is too large: {ex.Message}");
+                //}
+                //catch (ArgumentOutOfRangeException ex)
+                //{
+                //    Console.WriteLine($"Error: {ex.Message}");
+                //}
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Error: {ex.Message}");
