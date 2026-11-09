@@ -10,19 +10,23 @@ namespace HW2_Task_01
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter first number: ");
+            Console.Write("Enter a: ");
             int a = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter second number: ");
+            Console.Write("Enter b: ");
             int b = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter third number: ");
+            Console.Write("Enter c: ");
             int c = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Numbers are: a={a}, b={b}, c={c}");
+
             int t;
-            t = a; // t = 1
-            a = b; // a = 2
-            b = c; // b = 3
-            c = t; // c = 1
+            t = c; // t = 3
+            c = b; // c = 2
+            b = a; // b = 1
+            a = t; // a = 3
 
             Console.WriteLine("Nubers after change are: a = {0}, b = {1}, c = {2}", a, b, c);
+            Console.ReadKey();
         }
     }
 }

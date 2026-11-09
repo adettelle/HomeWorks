@@ -8,11 +8,12 @@ namespace HW_02_Task_05
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter the length: ");
+            Console.Write("Enter the length in meters: ");
             double len = Convert.ToDouble(Console.ReadLine());
-            int len_round = Convert.ToInt32(Math.Ceiling(len));
+            int roundedLen =  (int)Math.Ceiling(len); 
 
-            Console.WriteLine($"Rounded length is {len_round}");
+            Console.WriteLine($"Rounded length is {roundedLen}");
+            Console.ReadKey();
         }
     }
 }

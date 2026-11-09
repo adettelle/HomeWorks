@@ -16,7 +16,16 @@ namespace HW_07_Task_04
 
         static int FindMax(params int[] nums)
         {
-            return nums.Max();
+            int max = nums[0];
+            foreach (int num in nums)
+            {
+                if (num > max)
+                {
+                    max = num;
+                }
+            }
+            return max;
+            // return nums.Max();
         }
     }
 }

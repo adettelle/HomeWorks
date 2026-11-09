@@ -5,8 +5,8 @@ namespace HW_03_Task_06
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter number: ");
-            double number = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter a number: ");
+            double number = Convert.ToInt32(Console.ReadLine());
 
             //if (number % 2 == 0)
             //{

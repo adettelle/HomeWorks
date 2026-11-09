@@ -13,14 +13,14 @@ namespace HW_05_Task_02
             int countNegative = 0;
             int countZero = 0;
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < n; i++)
             {
                 array[i] = rnd.Next(-20, 21);
                 if (array[i] == 0) countZero++;
                 else if (array[i] < 0) countNegative++;
                 else countPositive++;
             }
-            Console.WriteLine($"array is {string.Join(", ", array)}");
+            Console.WriteLine($"array is: {string.Join(", ", array)}");
 
             Console.WriteLine($"number of positive numbers is {countPositive}");
             Console.WriteLine($"number of negative numbers is {countNegative}");

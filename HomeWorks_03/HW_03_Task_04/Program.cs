@@ -10,39 +10,36 @@ namespace HW_03_Task_04
         static void Main(string[] args)
         {
             Console.Write("Enter first number: ");
-            double firstNumber = Convert.ToDouble(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter second number: ");
-            double secondNumber = Convert.ToDouble(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter third number: ");
-            double thirdNumber = Convert.ToDouble(Console.ReadLine());
+            double c = Convert.ToDouble(Console.ReadLine());
 
-            // double min = (firstNumber <  secondNumber) ? firstNumber : secondNumber; 
+            // double min = (a <  b) ? a : b; 
             /*
             double change;
-            if (firstNumber > secondNumber)
+            if (a > b)
             {
-                change = firstNumber;
-                firstNumber = secondNumber;
-                secondNumber = change;
+                change = a;
+                a = b;
+                b = change;
             }
-            if (secondNumber > thirdNumber)
+            if (b > c)
             {
-                change = secondNumber;
-                secondNumber = thirdNumber;
-                thirdNumber = change;
+                change = b;
+                b = c;
+                c = change;
             }
-            if (firstNumber > secondNumber)
+            if (a > b)
             {
-                change = firstNumber;
-                firstNumber = secondNumber;
-                secondNumber = change;
+                change = a;
+                a = secondNubmber;
+                b = change;
             }
             */
-            double median =
-                firstNumber + secondNumber + thirdNumber
-                - Math.Max(firstNumber, Math.Max(secondNumber, thirdNumber)) 
-                - Math.Min(firstNumber, Math.Min(secondNumber, thirdNumber));
-            Console.WriteLine($"Median number is {secondNumber}");
+            double median = (a + b + c) - Math.Max(a, Math.Max(b, c)) - Math.Min(a, Math.Min(b, c));
+            Console.WriteLine($"Median number is {median}");
         }
     }
 }

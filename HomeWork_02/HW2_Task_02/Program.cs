@@ -28,6 +28,7 @@ namespace HW2_Task_02
             double rad = grad * Math.PI / 180.0;
             // Console.WriteLine("angle in radians is {0}", rad);
             Console.WriteLine($"angle in radians is {rad:F3}");
+            Console.ReadKey();
         }
     }
 }

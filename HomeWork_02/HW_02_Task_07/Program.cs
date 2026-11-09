@@ -5,9 +5,9 @@ namespace HW_02_Task_07
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter first number: ");
+            Console.Write("Enter first number a: ");
             int a = Convert.ToInt32(Console.ReadLine()); // 3
-            Console.Write("Enter second number: ");
+            Console.Write("Enter second number b: ");
             int b = Convert.ToInt32(Console.ReadLine()); // 5
             Console.WriteLine($"a = {a}, b = {b}");
 

@@ -14,10 +14,16 @@ namespace HW_03_Task_03
             Console.Write("Enter fourth number: ");
             double fourthNumber = Convert.ToDouble(Console.ReadLine());
 
-            double max = firstNumber > secondNumber ? firstNumber : secondNumber;
+            // Вариант 1
+            /*
+             double max = firstNumber > secondNumber ? firstNumber : secondNumber;
 
-            if (thirdNumber > max) max = thirdNumber;
-            if (fourthNumber > max) max = fourthNumber;
+             if (thirdNumber > max) max = thirdNumber;
+             if (fourthNumber > max) max = fourthNumber;
+            */
+
+            //  Вариант 2
+            double max = Math.Max(double.Max(firstNumber, secondNumber), double.Max(thirdNumber, fourthNumber));
             Console.WriteLine($"max is {max}");
         }
     }

@@ -18,6 +18,7 @@ namespace HW_02_Task_04
            
             int n_out = d * 1000 + a * 100 + b * 10 + c;
             Console.WriteLine("input number is {0}, otput number is {1}", n_in, n_out);
+            Console.ReadKey();
         }
     }
 }
