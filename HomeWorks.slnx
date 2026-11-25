@@ -1,63 +1,69 @@
 <Solution>
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_01/HW_01_Task_01/HW_01_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_01/HW_01_Task_02/HW_01_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_01/HW_02_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_02/HW_02_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_03/HW_02_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_04/HW_02_Task_04.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_05/HW_02_Task_05.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_06/HW_02_Task_06.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_07/HW_02_Task_07.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_01/HW_03_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_02/HW_03_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_03/HW_03_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_04/HW_03_Task_04.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_05/HW_03_Task_05.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_06/HW_03_Task_06.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_07/HW_03_Task_07.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_08/HW_03_Task_08.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_09/HW_03_Task_09.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_10/HW_03_Task_10.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_11/HW_03_Task_11.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_12/HW_03_Task_12.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_01/HW_04_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_02/HW_04_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_03/HW_04_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_04/HW_04_Task_04.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_05/HW_04_Task_05.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_06/HW_04_Task_06.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_07/HW_04_Task_07.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_08/HW_04_Task_08.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_01/HW_05_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_02/HW_05_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_03/HW_05_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_04/HW_05_Task_04.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_05/HW_05_Task_05.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_06/HW_05_Task_06.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_07/HW_05_Task_07.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_08/HW_05_Task_08.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_09/HW_05_Task_09.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_10/HW_05_Task_10.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_01/HW_06_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_02/HW_06_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_03/HW_06_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_04/HW_06_Task_04.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_05/HW_06_Task_05.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_06/HW_06_Task_06.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_07/HW_06_Task_07.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_01/HW_07_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_02/HW_07_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_03/HW_07_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_04/HW_07_Task_04.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_05/HW_07_Task_05.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_08/HW_08_Task_01/HW_08_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_08/HW_08_Task_02/HW_08_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_08/HW_08_Task_03/HW_08_Task_03.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_01/HW_09_Task_01.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_02/HW_09_Task_02.csproj" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_03/HW_09_Task_03.csproj" Id="a84bce8f-4f5f-4aaf-8e87-6347ee8de2d0" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_04/HW_09_Task_04.csproj" Id="da0cc7c2-1f30-47f1-b38a-04d20bc05f4b" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_05/HW_09_Task_05.csproj" Id="1c2aeb28-a542-45cb-bbde-f4a246207cb2" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_10/HW_10_00/HW_10_00.csproj" Id="238c8e5f-ce8a-4748-a3c7-970f2c9f9cfe" />
-  <Project Path="../../../../../../source/repos/HomeWorks/HomeWork_10/HW_10_Task_01/HW_10_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_01/HW_01_Task_01/HW_01_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_01/HW_01_Task_02/HW_01_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_01/HW_02_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_02/HW_02_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_03/HW_02_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_04/HW_02_Task_04.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_05/HW_02_Task_05.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_06/HW_02_Task_06.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_02/HW_02_Task_07/HW_02_Task_07.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_01/HW_03_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_02/HW_03_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_03/HW_03_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_04/HW_03_Task_04.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_05/HW_03_Task_05.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_06/HW_03_Task_06.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_07/HW_03_Task_07.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_08/HW_03_Task_08.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_09/HW_03_Task_09.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_10/HW_03_Task_10.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_11/HW_03_Task_11.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_03/HW_03_Task_12/HW_03_Task_12.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_01/HW_04_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_02/HW_04_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_03/HW_04_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_04/HW_04_Task_04.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_05/HW_04_Task_05.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_06/HW_04_Task_06.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_07/HW_04_Task_07.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_04/HW_04_Task_08/HW_04_Task_08.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_01/HW_05_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_02/HW_05_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_03/HW_05_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_04/HW_05_Task_04.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_05/HW_05_Task_05.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_06/HW_05_Task_06.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_07/HW_05_Task_07.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_08/HW_05_Task_08.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_09/HW_05_Task_09.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_05/HW_05_Task_10/HW_05_Task_10.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_01/HW_06_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_02/HW_06_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_03/HW_06_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_04/HW_06_Task_04.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_05/HW_06_Task_05.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_06/HW_06_Task_06.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_06/HW_06_Task_07/HW_06_Task_07.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_01/HW_07_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_02/HW_07_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_03/HW_07_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_04/HW_07_Task_04.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_07/HW_07_Task_05/HW_07_Task_05.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_08/HW_08_Task_01/HW_08_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_08/HW_08_Task_02/HW_08_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_08/HW_08_Task_03/HW_08_Task_03.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_01/HW_09_Task_01.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_02/HW_09_Task_02.csproj" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_03/HW_09_Task_03.csproj" Id="a84bce8f-4f5f-4aaf-8e87-6347ee8de2d0" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_04/HW_09_Task_04.csproj" Id="da0cc7c2-1f30-47f1-b38a-04d20bc05f4b" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_09/HW_09_Task_05/HW_09_Task_05.csproj" Id="1c2aeb28-a542-45cb-bbde-f4a246207cb2" />
+  <Project Path="../../../../../source/repos/HomeWorks/HomeWork_10/HW_10_Task_01/HW_10_Task_01.csproj" />
+  <Project Path="HomeWork_10/HW_10_Task_00/HW_10_Task_00.csproj" />
+  <Project Path="HomeWork_10/HW_10_Task_02/HW_10_Task_02.csproj" />
+  <Project Path="HomeWork_11/HW_11_Task_00/HW_11_Task_00.csproj" Id="ce589d73-ca86-425a-a606-85ab7d4c911f" />
+  <Project Path="HomeWork_11/HW_11_Task_01/HW_11_Task_01.csproj" Id="cc594ae2-16d2-4640-9b42-a53c198b66f4" />
+  <Project Path="HomeWork_11/HW_11_Task_02/HW_11_Task_02.csproj" Id="52da4d39-2493-45f1-88a1-193e87625d53" />
+  <Project Path="HomeWork_12/HW_12_Task_00/HW_12_Task_00.csproj" Id="2c2543ce-a2d8-4e91-80d9-6d5e2c3070dc" />
+  <Project Path="HomeWork_12/HW_12_Task_01/HW_12_Task_01.csproj" Id="83ce8582-7908-4c3a-90a0-9a347be49b20" />
 </Solution>

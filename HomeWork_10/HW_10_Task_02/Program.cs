@@ -31,9 +31,6 @@
                     Console.WriteLine($"IN DOWNCASTING: Triangle side A: {triangle.SideA}");
                 }
             }
-
-            // Console.WriteLine($"Triangle area: {t1.Area():F2}");
-            // Console.WriteLine($"Circle area: {c1.Area():F2}");
         }
     }
 
