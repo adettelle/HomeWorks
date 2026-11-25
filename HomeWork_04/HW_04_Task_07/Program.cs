@@ -9,6 +9,7 @@ namespace HW_04_Task_07
             int num = Convert.ToInt32(Console.ReadLine());
 
             int count = 0;
+            // числа могут быть отрицательные
             int temp = Math.Abs(num);
 
             while (temp > 0)

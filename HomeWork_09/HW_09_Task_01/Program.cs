@@ -20,7 +20,7 @@ namespace HW_09_Task_01
             book1.Year = 1869;
             try
             {
-                book1.Pages = -1000;
+                book1.Pages = 1000;
             }
             catch (Exception ex)
             {
@@ -31,7 +31,7 @@ namespace HW_09_Task_01
             var book2 = new Book("Hamlet", "William Shakespeare", 1603, 289);
             try
             {
-                book2.Year = -111;
+                book2.Year = 111;
             }
             catch (Exception ex)
             {

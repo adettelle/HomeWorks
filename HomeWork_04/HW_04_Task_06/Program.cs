@@ -16,6 +16,11 @@ namespace HW_04_Task_06
                 return;
             }
 
+            if (num % 2 != 0 || num <= 0)
+            {
+                Console.WriteLine($"number is not a power of two");
+                return;
+            }
             int power = 0;
             int temp = num;
 
@@ -24,15 +29,7 @@ namespace HW_04_Task_06
                 power++;
                 temp /= 2;
             }
-            if (temp == 0)
-            {
-                Console.WriteLine($"number is not a power of two");
-
-            }
-            else if (temp == 1)
-            {
-                Console.WriteLine($"number is a power of two: 2^{power} is {num}");
-            }
+            Console.WriteLine($"number is a power of two: 2^{power} is {num}");
         }
     }
 }

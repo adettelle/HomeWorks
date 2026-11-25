@@ -22,6 +22,7 @@ namespace HW_02_Task_03
             int meters = Convert.ToInt32(len_mm / 100);
             
             Console.WriteLine($"{len_inch} inches is {meters}m {cm}cm {mm:F1}mm");
+            Console.ReadKey();
         }
     }
 }
